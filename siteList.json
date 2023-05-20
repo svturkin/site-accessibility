@@ -1,0 +1,252 @@
+[
+    {
+        "name": "google.com",
+        "isOn": true,
+        "timeInMs": 449
+    },
+    {
+        "name": "youtube.com",
+        "isOn": true,
+        "timeInMs": 139
+    },
+    {
+        "name": "facebook.com",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "baidu.com",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "wikipedia.org",
+        "isOn": true,
+        "timeInMs": 251
+    },
+    {
+        "name": "qq.com",
+        "isOn": true,
+        "timeInMs": 284
+    },
+    {
+        "name": "taobao.com",
+        "isOn": true,
+        "timeInMs": 248
+    },
+    {
+        "name": "yahoo.com",
+        "isOn": true,
+        "timeInMs": 804
+    },
+    {
+        "name": "tmall.com",
+        "isOn": true,
+        "timeInMs": 349
+    },
+    {
+        "name": "amazon.com",
+        "isOn": true,
+        "timeInMs": 449
+    },
+    {
+        "name": "google.co.in",
+        "isOn": true,
+        "timeInMs": 560
+    },
+    {
+        "name": "twitter.com",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "sohu.com",
+        "isOn": true,
+        "timeInMs": 889
+    },
+    {
+        "name": "jd.com",
+        "isOn": true,
+        "timeInMs": 2830
+    },
+    {
+        "name": "live.com",
+        "isOn": true,
+        "timeInMs": 236
+    },
+    {
+        "name": "instagram.com",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "sina.com.cn",
+        "isOn": true,
+        "timeInMs": 807
+    },
+    {
+        "name": "weibo.com",
+        "isOn": true,
+        "timeInMs": 1329
+    },
+    {
+        "name": "google.co.jp",
+        "isOn": true,
+        "timeInMs": 222
+    },
+    {
+        "name": "reddit.com",
+        "isOn": true,
+        "timeInMs": 830
+    },
+    {
+        "name": "vk.com",
+        "isOn": true,
+        "timeInMs": 196
+    },
+    {
+        "name": "360.cn",
+        "isOn": true,
+        "timeInMs": 1762
+    },
+    {
+        "name": "login.tmall.com",
+        "isOn": true,
+        "timeInMs": 696
+    },
+    {
+        "name": "blogspot.com",
+        "isOn": true,
+        "timeInMs": 292
+    },
+    {
+        "name": "yandex.ru",
+        "isOn": true,
+        "timeInMs": 112
+    },
+    {
+        "name": "google.com.hk",
+        "isOn": true,
+        "timeInMs": 923
+    },
+    {
+        "name": "netflix.com",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "linkedin.com",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "pornhub.com",
+        "isOn": true,
+        "timeInMs": 1083
+    },
+    {
+        "name": "google.com.br",
+        "isOn": true,
+        "timeInMs": 625
+    },
+    {
+        "name": "twitch.tv",
+        "isOn": true,
+        "timeInMs": 557
+    },
+    {
+        "name": "pages.tmall.com",
+        "isOn": true,
+        "timeInMs": 201
+    },
+    {
+        "name": "csdn.net",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "yahoo.co.jp",
+        "isOn": true,
+        "timeInMs": 715
+    },
+    {
+        "name": "mail.ru",
+        "isOn": true,
+        "timeInMs": 354
+    },
+    {
+        "name": "aliexpress.com",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "alipay.com",
+        "isOn": true,
+        "timeInMs": 558
+    },
+    {
+        "name": "office.com",
+        "isOn": true,
+        "timeInMs": 122
+    },
+    {
+        "name": "google.fr",
+        "isOn": true,
+        "timeInMs": 172
+    },
+    {
+        "name": "google.ru",
+        "isOn": true,
+        "timeInMs": 153
+    },
+    {
+        "name": "google.co.uk",
+        "isOn": true,
+        "timeInMs": 940
+    },
+    {
+        "name": "microsoftonline.com",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "google.de",
+        "isOn": true,
+        "timeInMs": 306
+    },
+    {
+        "name": "ebay.com",
+        "isOn": true,
+        "timeInMs": 689
+    },
+    {
+        "name": "microsoft.com",
+        "isOn": true,
+        "timeInMs": 809
+    },
+    {
+        "name": "livejasmin.com",
+        "isOn": true,
+        "timeInMs": 1570
+    },
+    {
+        "name": "t.co",
+        "isOn": false,
+        "timeInMs": 0
+    },
+    {
+        "name": "bing.com",
+        "isOn": true,
+        "timeInMs": 235
+    },
+    {
+        "name": "xvideos.com",
+        "isOn": true,
+        "timeInMs": 513
+    },
+    {
+        "name": "google.ca",
+        "isOn": true,
+        "timeInMs": 516
+    }
+]
