@@ -2,9 +2,11 @@ package controllers
 
 import (
 	"net/http"
-	"site-accessibility/modules/site-accessibility-check/services"
 
 	"github.com/gin-gonic/gin"
+
+	"site-accessibility/helpers"
+	"site-accessibility/modules/site-accessibility-check/services"
 )
 
 type SiteAccessibilityController struct {
@@ -17,6 +19,13 @@ func SiteAccessibilityControllerHandler() SiteAccessibilityController {
 	}
 
 	return handler
+}
+
+func (ctrl *SiteAccessibilityController) PingServer(c *gin.Context) {
+	c.JSON(200, gin.H{
+		"status":  "success",
+		"message": "Server is running",
+	})
 }
 
 func (ctrl *SiteAccessibilityController) GetUrlInfo(c *gin.Context) {
@@ -65,6 +74,15 @@ func (ctrl *SiteAccessibilityController) GetSlowestUrl(c *gin.Context) {
 	c.JSON(200, gin.H{
 		"status":  "success",
 		"data":    url,
+		"message": "success get data",
+	})
+}
+
+func (ctrl *SiteAccessibilityController) GetCounter(c *gin.Context) {
+	requestCounter := helpers.GetRequestsCount()
+	c.JSON(200, gin.H{
+		"status":  "success",
+		"data":    requestCounter,
 		"message": "success get data",
 	})
 }

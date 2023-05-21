@@ -2,7 +2,7 @@ package services
 
 import (
 	"fmt"
-	"log"
+
 	"site-accessibility/helpers"
 	"site-accessibility/modules/site-accessibility-check/dto"
 )
@@ -65,6 +65,5 @@ func (service *SiteAccessibilityService) GetSlowestUrl() (string, error) {
 		}
 	}
 
-	log.Println(slowestUrl)
 	return slowestUrl.Name, nil
 }

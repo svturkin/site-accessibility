@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 
+	"site-accessibility/helpers"
 	"site-accessibility/modules/site-accessibility-check/controllers"
 )
 
@@ -10,11 +11,9 @@ func SetupRouter() *gin.Engine {
 	router := gin.Default()
 	handler := controllers.SiteAccessibilityControllerHandler()
 
-	router.GET("/", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "Server is running",
-		})
-	})
+	router.Use(helpers.CountRequests())
+
+	router.GET("/", handler.PingServer)
 
 	userRoutes := router.Group("/url")
 	{
@@ -25,7 +24,7 @@ func SetupRouter() *gin.Engine {
 
 	adminRoutes := router.Group("/admin")
 	{
-		adminRoutes.GET("/counter")
+		adminRoutes.GET("/counter", handler.GetCounter)
 	}
 
 	return router
